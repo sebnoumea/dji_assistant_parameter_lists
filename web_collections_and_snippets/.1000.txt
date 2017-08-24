@@ -1,0 +1,40 @@
+#Sport Mode Vertical and Max Speed 67 (36) -> 85 (46)
+g_config_mode_sport_cfg_tilt_atti_range = 50 (35 stock) .1000
+g_config_mode_sport_cfg_vert_vel_up= 10 .1000
+g_config_mode_sport_cfg_vert_vel_down = -8 .1000
+g_config_mode_sport_cfg_vert_acc_up = 10 .1000
+g_config_mode_sport_cfg_vert_acc_down = -8 .1000
+g_config_fw_cfg_max_speed = 20 .1000
+brake_sensitive_gain = 70 .1000
+
+#GPS+ 51 (27) -> 62 (33)
+g_config_mode_normal_cfg_tilt_atti_range = 33 .1000
+g_config_mode_normal_cfg_vert_vel_up = 7 .1000
+g_config_mode_normal_cfg_vert_vel_down = -6 .1000
+g_config_mode_normal_cfg_vert_acc_up = 7 .1000
+g_config_mode_normal_cfg_vert_acc_down = -6 .1000
+
+#ObstacleAvoidance+ 35 (18) -> 46 (24)
+g_config_control_avoid_atti_range = 23 (stock 16) .1000
+g_config_avoid_obstacle_limit_cfg_safe_dis = 3 (stock 1) .1000
+
+#Height Limit Change
+g_config_flying_limit_height_limit_enabled = 2 .1000ko
+g_config_flying_limit_limit_height_abs_without_gps = 3000
+g_config_flying_limit_limit_height_abs = 3000
+g_config_flying_limit_limit_height_rel = 3000
+
+#Wind Notices
+g_config_air_est_big_wind_level1 = 25 .1000
+g_config_air_est_big_wind_level2 = 25 .1000
+
+#RTH Speed ** not sure this works, not offering in the service.
+g_config_go_home_gohome_idle_vel = 15 .1000
+
+#SaferAutoLanding
+g_config_landing_auto_landing_vel_L1 = 0 (-1) .1000
+g_config_landing_auto_landing_vel_L2 = 0 (-3) .1000
+
+#SaferAutoTakeOFF
+g_config_takeoff_auto_assist_takeoff_vel = 1 .1000
+g_config_takeoff_auto_takeoff_height = 10 .1000
